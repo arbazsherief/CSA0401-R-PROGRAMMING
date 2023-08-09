@@ -1,0 +1,6 @@
+n = floor(rnorm(100, 10, 50))
+print('List of random numbers in normal distribution:')
+print(n)
+t = table(n)
+print("Count occurrences of each value:")
+print(t)
